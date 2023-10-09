@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {}
+    "/Users/athitayapetersen/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {}
   },
   "projects": {
-    "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {
+    "/Users/athitayapetersen/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
+        "projectUniqueName": "/Users/athitayapetersen/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
         "projectName": "miniprojekt-blazor",
-        "projectPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
-        "packagesPath": "/Users/helenakaad/.nuget/packages/",
-        "outputPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/obj/",
+        "projectPath": "/Users/athitayapetersen/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
+        "packagesPath": "/Users/athitayapetersen/.nuget/packages/",
+        "outputPath": "/Users/athitayapetersen/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/helenakaad/.nuget/NuGet/NuGet.Config"
+          "/Users/athitayapetersen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

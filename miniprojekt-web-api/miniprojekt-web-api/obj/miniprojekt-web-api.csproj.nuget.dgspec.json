@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj": {}
+    "/Users/athitayapetersen/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj": {}
   },
   "projects": {
-    "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj": {
+    "/Users/athitayapetersen/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
+        "projectUniqueName": "/Users/athitayapetersen/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
         "projectName": "miniprojekt-web-api",
-        "projectPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
-        "packagesPath": "/Users/helenakaad/.nuget/packages/",
-        "outputPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/",
+        "projectPath": "/Users/athitayapetersen/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
+        "packagesPath": "/Users/athitayapetersen/.nuget/packages/",
+        "outputPath": "/Users/athitayapetersen/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/helenakaad/.nuget/NuGet/NuGet.Config"
+          "/Users/athitayapetersen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
