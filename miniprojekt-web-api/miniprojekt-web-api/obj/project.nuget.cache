@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W+iOl0bBZfoNfK/EPyqlwjGiJJeuUpnXhWZhz+efYc8qz5t2ptU8VooBi/D+nlq/BI6Hr1pVhK0HXdC9PGkp3w==",
+  "dgSpecHash": "OBCdBZPFFbJGgNqtulJhGf2QJSp5lhlf02Yj1A3M/R6umX8jJMqdwuqvlEAY100+e0MkaFu9n9UeCYRjf7N9vg==",
   "success": true,
-  "projectFilePath": "/Users/helenakaad/Desktop/solution/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
+  "projectFilePath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
   "expectedPackageFiles": [
     "/Users/helenakaad/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "/Users/helenakaad/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

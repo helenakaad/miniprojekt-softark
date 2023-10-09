@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {}
+    "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {}
   },
   "projects": {
-    "/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {
+    "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
+        "projectUniqueName": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
         "projectName": "miniprojekt-blazor",
-        "projectPath": "/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
+        "projectPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
         "packagesPath": "/Users/helenakaad/.nuget/packages/",
-        "outputPath": "/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/obj/",
+        "outputPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/helenakaad/.nuget/NuGet/NuGet.Config"

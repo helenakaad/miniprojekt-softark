@@ -474,11 +474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/helenakaad/Desktop/solution/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
+      "projectUniqueName": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
       "projectName": "miniprojekt-web-api",
-      "projectPath": "/Users/helenakaad/Desktop/solution/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
+      "projectPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
       "packagesPath": "/Users/helenakaad/.nuget/packages/",
-      "outputPath": "/Users/helenakaad/Desktop/solution/miniprojekt-web-api/miniprojekt-web-api/obj/",
+      "outputPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/helenakaad/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hABF7RQxuovftBbkJsAaCCoE4pFsAIgq4bq7eahd/dKRCZ6/ISvB08g3bZTRHBoZ3s6dSq9HQRKOeyLkI9cQzA==",
+  "dgSpecHash": "yeD/phaEIXbhqBN0nwoHxI37eHRKJeCZJIScOTDNkitW2LFmthE55c3tLR+2+tEoHIDSH0hbH4mHJqd7rTpO3g==",
   "success": true,
-  "projectFilePath": "/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
+  "projectFilePath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
   "expectedPackageFiles": [
     "/Users/helenakaad/.nuget/packages/microsoft.aspnetcore.authorization/7.0.10/microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
     "/Users/helenakaad/.nuget/packages/microsoft.aspnetcore.components/7.0.10/microsoft.aspnetcore.components.7.0.10.nupkg.sha512",

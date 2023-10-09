@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = miniprojekt-blazor
 build_property.RootNamespace = miniprojekt-blazor
-build_property.ProjectDir = /Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/
+build_property.ProjectDir = /Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor
+build_property.MSBuildProjectDirectory = /Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/App.razor]
+[/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/Pages/Counter.razor]
+[/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/Pages/FetchData.razor]
+[/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/Pages/Index.razor]
+[/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/Shared/SurveyPrompt.razor]
+[/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/_Imports.razor]
+[/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/Shared/MainLayout.razor]
+[/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-869ecvx895
 
-[/Users/helenakaad/Desktop/solution/miniprojekt-blazor/miniprojekt-blazor/Shared/NavMenu.razor]
+[/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3kdarx4j4e
