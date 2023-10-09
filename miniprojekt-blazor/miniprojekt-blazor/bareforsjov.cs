@@ -5,6 +5,7 @@ namespace miniprojektblazor
 	{
 		public bareforsjov()
 		{
+			int hej = 4;
 		}
 	}
 }
