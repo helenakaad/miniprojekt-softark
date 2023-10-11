@@ -65,5 +65,16 @@ app.UseAuthorization();
 
 app.MapControllers();*/
 
+// DataService fås via "Dependency Injection" (DI)
+app.MapGet("/", (DataService service) =>
+{
+    return new { message = "Forside til tråde :)" };
+});
+
+app.MapGet("/api/posts", (DataService service) =>
+{
+    return service.GetPosts().Select(a => new { a.PostId, a.Name, a.Text, a.Votes, a.DateTime });
+});
+
 app.Run();
 
