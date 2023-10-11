@@ -73,7 +73,7 @@ app.MapGet("/", (DataService service) =>
 
 app.MapGet("/api/posts", (DataService service) =>
 {
-    return service.GetPosts().Select(a => new { a.PostId, a.Name, a.Text, a.Votes, a.DateTime });
+    return service.GetPosts().Select(a => new { a.PostsId, a.Name, a.Text, a.Votes, a.DateTime });
 });
 
 app.Run();

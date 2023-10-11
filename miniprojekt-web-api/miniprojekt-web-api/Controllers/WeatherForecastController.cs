@@ -2,7 +2,7 @@
 
 namespace miniprojekt_web_api.Controllers;
 
-[ApiController]
+/*[ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
@@ -29,5 +29,5 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
-}
+}*/
 
