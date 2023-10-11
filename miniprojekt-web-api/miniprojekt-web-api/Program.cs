@@ -76,5 +76,18 @@ app.MapGet("/api/posts", (DataService service) =>
     return service.GetPosts().Select(a => new { a.PostsId, a.Name, a.Text, a.Votes, a.DateTime });
 });
 
+app.MapGet("/api/posts/{id}", (DataService service, int id) =>
+{
+    return service.GetSinglePost(id);
+});
+
+
+app.MapPost("api/createPost", (DataService service, NewPostData data) =>
+{
+    string result = service.CreatePost(data.name, data.text, data.header);
+    return new { message = result };
+});
+
 app.Run();
 
+record NewPostData (string name, string text, string header);
