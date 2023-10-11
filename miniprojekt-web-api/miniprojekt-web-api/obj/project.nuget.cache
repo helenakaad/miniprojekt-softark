@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "GEqCQEKpah+jNFa2pPsdOBwtnxA2mNMfxEfaGkHXRuRD2KsWaENM0JTzVX0S6oZ0FQOEyLpo5n4uoUqr/2KZYQ==",
+  "dgSpecHash": "zvG8dMwtrL+dB1pc926WdhnwumwksOUcWsIbiE3Cf7xUL/COzFHQdF+Or0gbhq+ruYwpI6DGaOzkWG152vfqbw==",
   "success": true,
-  "projectFilePath": "/Users/athitayapetersen/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
+  "projectFilePath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/miniprojekt-web-api.csproj",
   "expectedPackageFiles": [
-    "/Users/athitayapetersen/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
-    "/Users/athitayapetersen/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/Users/athitayapetersen/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
-    "/Users/athitayapetersen/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
-    "/Users/athitayapetersen/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
-    "/Users/athitayapetersen/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "/Users/athitayapetersen/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "/Users/helenakaad/.nuget/packages/microsoft.aspnetcore.openapi/7.0.10/microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+    "/Users/helenakaad/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/helenakaad/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/helenakaad/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/helenakaad/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/helenakaad/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/helenakaad/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
   "logs": []
 }
