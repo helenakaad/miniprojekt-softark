@@ -1,27 +1,21 @@
 ﻿<Properties StartupConfiguration="{1B1226FC-9EF9-47B4-974D-3C4132AC4BC0}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="miniprojekt-web-api/miniprojekt-web-api/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="miniprojekt-web-api/miniprojekt-web-api/Data/ThreadContext.cs">
     <Files>
       <File FileName="miniprojekt-blazor/miniprojekt-blazor/bareforsjov.cs" />
       <File FileName="miniprojekt-web-api/miniprojekt-web-api/appsettings.Development.json" />
-      <File FileName="shared/shared.csproj" Line="20" Column="1" />
-      <File FileName="shared/Class1.cs" Line="8" Column="34" />
-      <File FileName="miniprojekt-blazor/miniprojekt-blazor/Pages/Counter.razor" Line="1" Column="1" />
-      <File FileName="miniprojekt-blazor/miniprojekt-blazor/Pages/Index.razor" Line="10" Column="1" />
-      <File FileName="Shared/Model/Comments.cs" Line="11" Column="28" />
+      <File FileName="shared/shared.csproj" />
+      <File FileName="miniprojekt-blazor/miniprojekt-blazor/Pages/Index.razor" />
+      <File FileName="Shared/Model/Comments.cs" />
       <File FileName="miniprojekt-web-api/miniprojekt-web-api/Program.cs" Line="19" Column="27" />
+      <File FileName="miniprojekt-web-api/miniprojekt-web-api/Data/ThreadContext.cs" Line="17" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="miniprojekt">
-            <Node name="miniprojekt-blazor" expanded="True">
-              <Node name="miniprojekt-blazor" expanded="True">
-                <Node name="Pages" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="miniprojekt-web-api" expanded="True">
+            <Node name="miniprojekt-web-api">
               <Node name="miniprojekt-web-api" expanded="True">
-                <Node name="Program.cs" selected="True" />
+                <Node name="Data" expanded="True" />
               </Node>
             </Node>
             <Node name="Shared" expanded="True">
@@ -32,11 +26,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.miniprojekt-blazor.miniprojekt-blazor PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.miniprojekt-blazor.miniprojekt-blazor PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
