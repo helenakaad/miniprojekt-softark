@@ -8,7 +8,6 @@ public class Thread
         this.DateTime = dateTime;
         this.Name = name;
         this.Votes = votes;
-
     }
 
     public long ThreadId { get; set; }
@@ -17,6 +16,7 @@ public class Thread
     public DateTime DateTime { get; set; }
     public string Name { get; set; }
     public int Votes { get; set; }
+    public List<Comments> Comments { get; set; } = new List<Comments>();
 }
 
 
