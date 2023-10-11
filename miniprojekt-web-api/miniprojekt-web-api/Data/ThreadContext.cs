@@ -1,12 +1,18 @@
 ﻿using Microsoft.EntityFramework;
 using System;
+using Shared.Model;
 
-namespace miniprojekt_web_api.Data
+namespace Data
 {
-	public class ThreadContext
+	public class ThreadContext : DbContext
 	{
-		public ThreadContext()
+		public DbSet<Thread> Threads => Set<Board>();
+		public DbSet<Comment> Comments => Set<Comment>();
+
+		public ThreadContext (DbContextOptions<ThreadContext> options)
+			: base(options)
 		{
+
 		}
 	}
 }
