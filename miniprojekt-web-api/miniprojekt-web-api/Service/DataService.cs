@@ -29,7 +29,15 @@ public class DataService
             db.Post.Add(new Posts { Name = "SmukkeSally", Text = "Hvordan bliver jeg filmstjerne?", Header = "Tips" });
         }
 
-		db.SaveChanges();
+        Comments comments = db.Comments.FirstOrDefault()!;
+        if (comments == null)
+        {
+            db.Comments.Add(new Comments { Name = "FlotteHans", Text = "Yes, YATH"});
+            db.Comments.Add(new Comments { Name = "FrækkeFrederik", Text = "Gør det selv :)"});
+            db.Comments.Add(new Comments { Name = "GrimmeGert", Text = "Det bliver du nok ikke"});
+        }
+
+        db.SaveChanges();
 	}
 
 	public List<Posts> GetPosts()
@@ -39,14 +47,22 @@ public class DataService
 
 	public Posts GetSinglePost(int id)
 	{
-		return db.Post.FirstOrDefault(a => a.PostsId == id);
+		return db.Post.Include(b => b.Comments).FirstOrDefault(a => a.PostsId == id);
 	}
-
 
     public string CreatePost(string name, string text, string header)
     {
         db.Post.Add(new Posts(name, text, header));
 		db.SaveChanges();
 		return "Post created";
+	}
+
+	public string createComment(string name, string text, long postsId)
+	{
+		Posts posts = db.Post.FirstOrDefault(a => a.PostsId == postsId);
+		posts.Comments.Add(new Comments { Name = name, Text = text });
+		db.Update(posts);
+		db.SaveChanges();
+		return "Comment created";
 	}
 }

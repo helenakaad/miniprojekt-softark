@@ -3,6 +3,7 @@ using System;
 using Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace miniprojekt_web_api.Migrations
 {
     [DbContext(typeof(PostsContext))]
-    partial class PostsContextModelSnapshot : ModelSnapshot
+    [Migration("20231011092933_kommentarerForsøg")]
+    partial class kommentarerForsøg
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.12");
@@ -26,9 +29,6 @@ namespace miniprojekt_web_api.Migrations
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("DownVotes")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -40,7 +40,7 @@ namespace miniprojekt_web_api.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Upvotes")
+                    b.Property<int>("Votes")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("CommentsId");
@@ -59,9 +59,6 @@ namespace miniprojekt_web_api.Migrations
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("DownVotes")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Header")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -74,7 +71,7 @@ namespace miniprojekt_web_api.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Upvotes")
+                    b.Property<int>("Votes")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("PostsId");
