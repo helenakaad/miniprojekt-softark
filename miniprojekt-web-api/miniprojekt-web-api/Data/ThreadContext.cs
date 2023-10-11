@@ -1,18 +1,17 @@
-﻿using Microsoft.EntityFramework;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
 using Shared.Model;
 
 namespace Data
 {
-	public class ThreadContext : DbContext
+	public class PostsContext : DbContext
 	{
-		public DbSet<Thread> Threads => Set<Board>();
-		public DbSet<Comment> Comments => Set<Comment>();
+		public DbSet<Posts> Thread => Set<Posts>();
+		public DbSet<Comments> Comments => Set<Comments>();
 
-		public ThreadContext (DbContextOptions<ThreadContext> options)
+		public PostsContext (DbContextOptions<PostsContext> options)
 			: base(options)
 		{
-
 		}
 	}
 }
