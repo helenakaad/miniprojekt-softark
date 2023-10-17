@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http.Json;
 using miniprojekt_web_api.Data;
 using miniprojekt_web_api.Service;
+using Shared.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,12 +21,14 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddDbContext<PostContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("ContextSQLite")));
-
+/*
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+*/
 
+builder.Services.AddScoped<DataService>();
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
@@ -44,9 +47,16 @@ using (var scope = app.Services.CreateScope())
     app.UseHttpsRedirection();
     app.UseCors(Allow);
 
-    app.UseAuthorization();
+    app.Use(async (context, next) =>
+    {
+        context.Response.ContentType = "application/json; charset=utf-8";
+        await next(context);
+    });
 
-    app.MapControllers();
+
+    //app.UseAuthorization();
+
+    //app.MapControllers();
 
     app.MapGet("/", (DataService service) =>
     {
@@ -55,11 +65,12 @@ using (var scope = app.Services.CreateScope())
 
     app.MapGet("/api/Post", (DataService service) =>
     {
-        return service.GetPost().Select(p => new { p.PostId, p.Name, p.Text, p.DateTime });
+        return service.GetPosts();
     });
 
-    app.MapGet("/api/Post/{id}", (DataService service, int id) => {
-        return service.GetPosts(id);
+    app.MapGet("/api/Post/{id}", (DataService service, int id) =>
+    {
+        return service.GetPost(id);
     });
 
     app.MapGet("/api/Post{id}/comment", (DataService service, int id) =>
@@ -72,15 +83,15 @@ using (var scope = app.Services.CreateScope())
         return service.GetComment(postId, commentId);
     });
 
-    /*
-    app.MapGet("/api/Post{postId}/comments", (DataService service, NewPostCData data, int postId) =>
+
+    app.MapPost("/api/Post{postId}/comments", (DataService service, NewPoComment data, int postId) =>
     {
-        string result = service.CreateComment(data.Text, data.DateTime, data.Name, data.Upvote, data.Downvote, data.PostId);
+        string result = service.CreateComment(data.Text, data.DateTime, data.Name, data.Upvote, data.Downvote, postId);
         return new { message = result };
     });
-      
-    */
 
-    app.Run();
 }
+    app.Run();
+
+record NewPoComment(string Text, DateTime DateTime, string Name, int Upvote, int Downvote, int postId);
 

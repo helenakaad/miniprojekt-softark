@@ -47,11 +47,11 @@ namespace miniprojekt_web_api.Service
               
 
         //Post
-        public List<Post> GetPost()
+        public List<Post> GetPosts()
 		{
 			return db.Posts.Include(c => c.Comment).ToList();
 		}
-		public Post GetPosts(int id)
+		public Post GetPost(int id)
 		{
 			return db.Posts.Include(c => c.Comment).FirstOrDefault(p => p.PostId == id)!;
 		}
