@@ -47,11 +47,19 @@ namespace miniprojekt_web_api.Service
               
 
         //Post
+	
         public List<Post> GetPosts()
 		{
 			return db.Posts.Include(c => c.Comment).ToList();
 		}
-		public Post GetPost(int id)
+	
+		/*
+        public List<Post> GetPosts()
+        {
+            return db.Posts.Include(b => b.PostId).ToList();
+        }
+	*/
+        public Post GetPost(int id)
 		{
 			return db.Posts.Include(c => c.Comment).FirstOrDefault(p => p.PostId == id)!;
 		}
@@ -74,7 +82,7 @@ namespace miniprojekt_web_api.Service
 			Post post = db.Posts.FirstOrDefault(p => p.PostId == postId)!;
 			Comment comments = new Comment(text,dateTime,name, upvote, downvote);
 			post.Comment.Add(comments);
-			return "comment created" + comments.CommentId; 
+			return "comment created" + comments.CommentId;  
 
 		}
     }
