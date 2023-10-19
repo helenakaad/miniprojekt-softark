@@ -59,33 +59,46 @@ using (var scope = app.Services.CreateScope())
 
     //app.MapControllers();
 
+    //Post
     app.MapGet("/", (DataService service) =>
     {
         return new { message = "velkommen til tråden!" };
     });
 
+    
     app.MapGet("/api/post", (DataService service) =>
     {
-        return service.GetPosts(); //.Select(p => new {p.Text, p.DateTime, p.Name, p.Upvote, p.Downvote });
+        return service.GetPosts().Select(p => new {p.PostId, p.Text, p.DateTime, p.Name, p.Upvote, p.Downvote });
     });
-
+  
+   
     app.MapGet("/api/post/{id}", (DataService service, int id) =>
     {
         return service.GetPost(id);
     });
 
+
+    app.MapPost("/api/createpost", (DataService service, NewPostData data) =>
+    {
+        string result = service.CreatePost(data.Text, data.DateTime, data.Name, data.Upvote, data.Downvote);
+        return new { message = result };
+    });
+
+     
+
+    //comment
     app.MapGet("/api/post{id}/comment", (DataService service, int id) =>
     {
         return service.GetComments(id);
     });
 
-    app.MapGet("/api/post{postId}/comment/{commentId}", (DataService service, int postId, int commentId) =>
+    app.MapGet("/api/post/{id}/comment", (DataService service, int postId, int commentId) =>
     {
         return service.GetComment(postId, commentId);
     });
 
 
-    app.MapPost("/api/ost{postId}/comments", (DataService service, NewPoComment data, int postId) =>
+    app.MapPost("/api/post{postId}/createcomment", (DataService service, NewCCommentData data, int postId) =>
     {
         string result = service.CreateComment(data.Text, data.DateTime, data.Name, data.Upvote, data.Downvote, postId);
         return new { message = result };
@@ -94,5 +107,6 @@ using (var scope = app.Services.CreateScope())
 }
     app.Run();
 
-record NewPoComment(string Text, DateTime DateTime, string Name, int Upvote, int Downvote, int postId);
+record NewPostData(string Text, DateTime DateTime, string Name, int Upvote, int Downvote);
+record NewCCommentData(string Text, DateTime DateTime, string Name, int Upvote, int Downvote, int postId);
 
