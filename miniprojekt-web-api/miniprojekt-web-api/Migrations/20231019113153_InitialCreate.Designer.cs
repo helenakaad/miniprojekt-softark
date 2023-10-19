@@ -11,8 +11,8 @@ using miniprojekt_web_api.Data;
 namespace miniprojekt_web_api.Migrations
 {
     [DbContext(typeof(PostContext))]
-    [Migration("20231019111723_Nye ting")]
-    partial class Nyeting
+    [Migration("20231019113153_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

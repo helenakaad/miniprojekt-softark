@@ -82,7 +82,7 @@ using (var scope = app.Services.CreateScope())
     {
         string result = service.CreatePost(data.Text, data.DateTime, data.Name, data.Upvote, data.Downvote);
         return new { message = result };
-    });
+    }); 
 
      
 
@@ -98,7 +98,7 @@ using (var scope = app.Services.CreateScope())
     });
 
 
-    app.MapPost("/api/post{postId}/createcomment", (DataService service, NewCCommentData data, int postId) =>
+    app.MapPost("/api/post{id}/createcomment", (DataService service, NewCCommentData data, int postId) =>
     {
         string result = service.CreateComment(data.Text, data.DateTime, data.Name, data.Upvote, data.Downvote, postId);
         return new { message = result };
