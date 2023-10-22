@@ -1,34 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {}
+    "/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {}
   },
   "projects": {
-    "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {
+    "/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
+        "projectUniqueName": "/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
         "projectName": "miniprojekt-blazor",
-        "projectPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
-        "packagesPath": "/Users/helenakaad/.nuget/packages/",
-        "outputPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/obj/",
+        "projectPath": "/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/miniprojekt-blazor.csproj",
+        "packagesPath": "/Users/sunmundur/.nuget/packages/",
+        "outputPath": "/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-blazor/miniprojekt-blazor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/helenakaad/.nuget/NuGet/NuGet.Config"
+          "/Users/sunmundur/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/Shared/Shared.csproj": {
-                "projectPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/Shared/Shared.csproj"
+              "/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/Shared/Shared.csproj": {
+                "projectPath": "/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/Shared/Shared.csproj"
               }
             }
           }
@@ -45,12 +44,12 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[7.0.12, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.10, )"
+              "version": "[7.0.12, )"
             }
           },
           "imports": [
@@ -84,23 +83,22 @@
         }
       }
     },
-    "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/Shared/Shared.csproj": {
+    "/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/Shared/Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/Shared/Shared.csproj",
+        "projectUniqueName": "/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/Shared/Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/Shared/Shared.csproj",
-        "packagesPath": "/Users/helenakaad/.nuget/packages/",
-        "outputPath": "/Users/helenakaad/Documents/GitHub/miniprojekt-softark/Shared/obj/",
+        "projectPath": "/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/Shared/Shared.csproj",
+        "packagesPath": "/Users/sunmundur/.nuget/packages/",
+        "outputPath": "/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/helenakaad/.nuget/NuGet/NuGet.Config"
+          "/Users/sunmundur/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
