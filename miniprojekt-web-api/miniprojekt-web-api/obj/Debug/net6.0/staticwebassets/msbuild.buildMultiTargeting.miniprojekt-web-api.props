@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/miniprojekt-web-api.props" />
+</Project>

@@ -1,9 +1,48 @@
-﻿@page "/"
+﻿@using Shared.Model
+@inject HttpClient HttpClient
+@page "/"
 
 <PageTitle>Index</PageTitle>
 
 <h1>Hejsa</h1>
 
-Forside til trådene :)
+@if (posts == null)
+{
+    <p><em>Loading...</em></p>
+} else
+{
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Bruger</th>
+                    <th>Titel</th>
+                    <th>Dato</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in posts)
+                {
+                    <tr>
+                        <td>@item.User</td>
+                        <td>@item.Title</td>
+                        <td>@item.DateTime</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+}
+
+@code{
+    protected List<Post> posts = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await getPosts();
+    }
+    protected async Task getPosts()
+    {
+        posts = await HttpClient.GetFromJsonAsync<List<Post>>($"{Config.ServerUrl}/api/posts");
+    }
+}
 
 

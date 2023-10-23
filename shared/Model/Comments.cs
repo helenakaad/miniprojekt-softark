@@ -1,19 +1,23 @@
 ﻿using System;
+using System.Text.Json.Serialization;
+
 namespace Shared.Model;
 
 public class Comments
 {
-    public Comments(string text, string name)
+    
+    public Comments(string text, string user)
     {
         this.Text = text;
-        this.Name = name;
+        this.User = user;
     }
 
-    public Comments(string text, DateTime dateTime, string name, int votes)
+    [JsonConstructor]
+    public Comments(string text, DateTime dateTime, string user, int votes)
     {
         this.Text = text;
         this.DateTime = dateTime;
-        this.Name = name;
+        this.User = user;
         this.Votes = votes;
 
     }
@@ -22,7 +26,7 @@ public class Comments
 
     public string Text { get; set; }
     public DateTime DateTime { get; set; } = DateTime.Now;
-    public string Name { get; set; }
+    public string User { get; set; }
     public int Votes { get; set; } = 0;
 }
 

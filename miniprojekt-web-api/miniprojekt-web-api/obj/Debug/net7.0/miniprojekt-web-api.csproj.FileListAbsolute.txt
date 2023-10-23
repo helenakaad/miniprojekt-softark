@@ -33,8 +33,15 @@
 /Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.pdb
 /Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.genruntimeconfig.cache
 /Users/helenakaad/Documents/GitHub/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/ref/miniprojekt-web-api.dll
-/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/bin/Debug/net7.0/appsettings.json
+/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.csproj.AssemblyReference.cache
+/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.AssemblyInfoInputs.cache
+/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.AssemblyInfo.cs
+/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.csproj.CoreCompileInputs.cache
+/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.MvcApplicationPartsAssemblyInfo.cs
+/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.MvcApplicationPartsAssemblyInfo.cache
 /Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/bin/Debug/net7.0/appsettings.Development.json
+/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/bin/Debug/net7.0/appsettings.json
 /Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/bin/Debug/net7.0/miniprojekt-web-api
 /Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/bin/Debug/net7.0/miniprojekt-web-api.deps.json
 /Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/bin/Debug/net7.0/miniprojekt-web-api.runtimeconfig.json
@@ -84,13 +91,6 @@
 /Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/bin/Debug/net7.0/Shared.dll
 /Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/bin/Debug/net7.0/Shared.pdb
-/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.csproj.AssemblyReference.cache
-/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.GeneratedMSBuildEditorConfig.editorconfig
-/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.AssemblyInfoInputs.cache
-/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.AssemblyInfo.cs
-/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.csproj.CoreCompileInputs.cache
-/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.MvcApplicationPartsAssemblyInfo.cs
-/Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/miniprojekt-web-api.MvcApplicationPartsAssemblyInfo.cache
 /Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/staticwebassets/msbuild.miniprojekt-web-api.Microsoft.AspNetCore.StaticWebAssets.props
 /Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/staticwebassets/msbuild.build.miniprojekt-web-api.props
 /Users/sunmundur/Documents/IT-arkitekt/Semester 3/Softwarearkitektur/Git/miniprojekt-softark/miniprojekt-web-api/miniprojekt-web-api/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.miniprojekt-web-api.props

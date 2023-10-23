@@ -78,16 +78,22 @@ app.MapGet("/api/posts", (DataService service) =>
 {
     return service.GetPosts().Select(b => new {
         postId = b.PostId,
-        name = b.Name,
-        text = b.Text,
+        user = b.User,
+        title = b.Title,
+        content = b.Content,
         votes = b.Votes,
         comments = b.Comments
     });
 });
 
+app.MapGet("/api/posts/{id}", (DataService service, int id) =>
+{
+    return service.GetPost(id);
+});
+
 app.MapPost("/api/posts/{id}/comments", (DataService service, NewCommentData data, int id) =>
 {
-    string result = service.CreateComment(data.Text, data.Name, id);
+    string result = service.CreateComment(data.Text, data.User, id);
     return new { message = result };
 });
 
@@ -98,7 +104,7 @@ app.MapPut("/api/posts/{pid}/comments/{cid}/{vote}", (DataService service, int p
 
 app.MapPost("/api/posts", (DataService service, NewPostData data) =>
 {
-    string result = service.CreatePost(data.Text, data.Name);
+    string result = service.CreatePost(data.Text, data.User, data.Content);
     return new { message = result };
 });
 
@@ -113,6 +119,6 @@ app.MapControllers();
 
 app.Run();
 
-record NewCommentData(string Text, string Name);
-record NewPostData(string Text, string Name);
+record NewCommentData(string Text, string User);
+record NewPostData(string Text, string User, string Content);
 

@@ -18,15 +18,14 @@ namespace Service
 			Post post = db.Post.FirstOrDefault()!;
 			if (post == null)
 			{
-				db.Post.Add(new Post("jeg opfandt vand AMA", "vandmand"));
-				db.Post.Add(new Post("hjælp til at vælge is", "ismand"));
-				db.Post.Add(new Post("jeg har lige slukket nytårsbålet AITA", "brandmand"));
+				db.Post.Add(new Post("jeg opfandt vand AMA", "vandmand", "titel"));
+				db.Post.Add(new Post("hjælp til at vælge is", "ismand", "københavner stang eller lynstang?"));
+				db.Post.Add(new Post("jeg har lige slukket nytårsbålet AITA", "brandmand", "der var ild i det"));
 			}
-			//if (post.Comments.FirstOrDefault() == null)
-			//{
-   //             List<Comments> comments = new List<Comments> { new Comments("fedt", "fedtmand"), new Comments("wwwwww", "upsmand") };
-   //             db.Post.FirstOrDefault(b => b.PostId == 1).Comments = comments;
-   //         }
+			
+				//List<Comments> comments = new List<Comments> { new Comments("fedt", "fedtmand"), new Comments("wwwwww", "upsmand") };
+				//db.Post.FirstOrDefault(b => b.PostId == 1).Comments = comments;
+			
 			db.SaveChanges();
 		}
 
@@ -40,16 +39,16 @@ namespace Service
 			return db.Post.Include(b => b.Comments).FirstOrDefault(b => b.PostId == id);
 		}
 
-		public string CreatePost(string text, string name)
+		public string CreatePost(string text, string user, string content)
 		{
-			db.Post.Add(new Post(text, name));
+			db.Post.Add(new Post(text, user, content));
 			db.SaveChanges();
 			return "Post created";
 		}
 
-		public string CreateComment(string text, string name, int postId)
+		public string CreateComment(string text, string user, int postId)
 		{
-			db.Post.FirstOrDefault(a => a.PostId == postId).Comments.Add(new Comments(text, name));
+			db.Post.FirstOrDefault(a => a.PostId == postId).Comments.Add(new Comments(text, user));
 			db.SaveChanges();
 			return "Comment created";
 		}
